@@ -1,0 +1,37 @@
+# Environment files
+.env
+*.env
+.env.*
+
+# Markdown files & documentation
+*.md
+**/*.md
+docs/
+
+# IDE, OS & Obsidian files
+.obsidian/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies & builds
+node_modules/
+dist/
+build/
+.vite/
+*.log
+
+# Python virtual environment, cache & databases
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+env/
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary upload assets
+temp_uploads/*
+!temp_uploads/.gitkeep
